@@ -1,0 +1,60 @@
+.HeaderContainer{
+    display: flex;
+    flex-direction: column;
+    justify-content: space-between;
+    padding: 6vh 10vw;
+    height: 75vh;
+    overflow: hidden;
+    background-size: cover;
+    background-position: center;
+    background-image:
+    linear-gradient(to bottom, rgba(245, 246, 252, 0.0), var(--background-color)),
+    url("../images/tokyo.jpg")
+}
+.HeaderLogo{
+    min-width: 8vw;
+    min-height: 8vw;
+    max-width: 10vw;
+    max-height: 10vw;
+    filter: invert(1);
+}
+.MenuLogo{
+    cursor: pointer;
+}
+.Navbar{
+    display: inline-flex;
+    align-items: center;
+    justify-content: space-between;
+}
+
+.LinksRow{
+    display: inline-flex;
+    list-style: none;
+    justify-content: space-around;
+    width: 60%;
+    justify-self: center;
+}
+.TitleContainer{
+    display: flex;
+    flex-direction: column;
+    align-items: flex-start;
+    text-align: left;
+}
+.Title{
+    font-size: 4em;
+    font-weight: bolder;
+    margin-bottom: 3vh;
+}
+.Description{
+    font-size: 1em;
+    font-weight: normal;
+    width: 75%;
+    color: var(--secondary-color);
+    text-align: justify;
+}
+.HeaderLink{
+    font-size: 1.6em;
+    color: var(-highlight-color);
+    font-weight: bolder;
+    cursor: pointer;
+}
