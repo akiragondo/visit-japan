@@ -23,12 +23,16 @@ export default class Header extends Component {
 
   render() {
     let HeaderLinks;
+    let descriptionStyle;
     if (window.innerWidth < 700) {
       HeaderLinks = (
         <div className="MenuLogo">
           <i className="fas fa-bars fa-2x" />
         </div>
       );
+      descriptionStyle = {
+        width: "100%",
+      };
     } else {
       HeaderLinks = (
         <ul className="LinksRow">
@@ -54,7 +58,7 @@ export default class Header extends Component {
         </div>
         <div className="TitleContainer">
           <div className="Title">Travel To Japan</div>
-          <div className="Description">
+          <div className="Description" style={descriptionStyle}>
             Lorem ipsum dolor sit amet, consectetur adipisicing elit, sed do
             eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim
             ad minim veniam, quis nostrud exercitation ullamco laboris nisi ut

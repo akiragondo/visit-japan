@@ -49,8 +49,39 @@
 .InformationTitle {
   font-size: 2em;
   font-weight: bold;
+  margin-bottom: 0.7em;
 }
 
 .InformationDescription {
   text-align: justify;
+}
+
+.ImgTitle {
+    font-size: 1.5em;
+    font-weight: bold;
+    color: var(--primary-color);
+}
+
+.Divider{
+    height: 1px;
+    width: 60%;
+    margin: 0.2em 0;
+    background-color: var(--primary-color);
+}
+
+.ImgDescription {
+    font-size: 1em;
+    font-weight: lighter;
+    color: var(--primary-color);
+    width: 70%;
+
+}
+
+
+.InformationDescription{
+    font-size: 1em;
+    font-weight: lighter;
+    color: var(--secondary-color);
+    width: 90%;
+    text-align: justify;
 }

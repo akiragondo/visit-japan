@@ -27,6 +27,7 @@ export default class MustSee extends Component {
   render() {
     let imgRowStyle;
     let mustSeeImg;
+    let descriptionStyle;
     if (window.innerWidth < 700) {
       imgRowStyle = {
         display: "flex",
@@ -37,6 +38,9 @@ export default class MustSee extends Component {
       };
       mustSeeImg = {
         height: "32vh",
+      };
+      descriptionStyle = {
+        width: "90%",
       };
     } else {
       imgRowStyle = {
@@ -54,15 +58,12 @@ export default class MustSee extends Component {
     return (
       <div className="MustSeeContainer">
         <div className="InformationTitle">Must See Places</div>
-        {/* <div className="InformationDescription">
+        <div className="InformationDescription" style={descriptionStyle}>
           Lorem ipsum dolor sit amet, consectetur adipisicing elit, sed do
           eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad
           minim veniam, quis nostrud exercitation ullamco laboris nisi ut
-          aliquip ex ea commodo consequat. Duis aute irure dolor in
-          reprehenderit in voluptate velit esse cillum dolore eu fugiat nulla
-          pariatur. Excepteur sint occaecat cupidatat non proident, sunt in
-          culpa qui officia deserunt mollit anim id est laborum.
-        </div> */}
+          aliquip ex ea commodo consequat.
+        </div>
         <div className="MustSeeImgRow" style={imgRowStyle}>
           <div className="MustSeeImg" style={mustSeeImg}>
             <div className="shadow">
