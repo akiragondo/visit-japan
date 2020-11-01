@@ -41,6 +41,13 @@ export default class Header extends Component {
     }
     return (
       <div className="HeaderContainer">
+        {/* <div className="ImageContainer">
+          <img
+            src="/images/tokyo.jpg"
+            alt="toyko"
+            className="ImageSectionImage"
+          />
+        </div> */}
         <div className="Navbar">
           <img src={logo} alt="Logo" className="HeaderLogo" />
           {HeaderLinks}

@@ -1,5 +1,8 @@
 .App {
   text-align: center;
+  position: absolute;
+  top: 0;
+  z-index: -3;
   --primary-color: #D3D3D3;
   --secondary-color: #7A7A7A;
   --accent-color: #BA181B;
