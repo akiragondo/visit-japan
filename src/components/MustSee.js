@@ -57,7 +57,7 @@ export default class MustSee extends Component {
 
     return (
       <div className="MustSeeContainer">
-        <div className="InformationTitle">Must See Places Test 2 </div>
+        <div className="InformationTitle">Must See Places Test</div>
         <div className="InformationDescription" style={descriptionStyle}>
           Lorem ipsum dolor sit amet, consectetur adipisicing elit, sed do
           eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad
