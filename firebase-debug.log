@@ -1,0 +1,26 @@
+[debug] [2020-11-01T23:13:41.644Z] ----------------------------------------------------------------------
+[debug] [2020-11-01T23:13:41.647Z] Command:       C:\Users\Akira\DOWNLO~1\firebase-tools-instant-win.exe C:\Users\Akira\.cache\firebase\tools\lib\node_modules\firebase-tools\lib\bin\firebase init hosting:github
+[debug] [2020-11-01T23:13:41.647Z] CLI Version:   8.12.1
+[debug] [2020-11-01T23:13:41.648Z] Platform:      win32
+[debug] [2020-11-01T23:13:41.648Z] Node Version:  v12.18.1
+[debug] [2020-11-01T23:13:41.649Z] Time:          Sun Nov 01 2020 20:13:41 GMT-0300 (Brasilia Standard Time)
+[debug] [2020-11-01T23:13:41.649Z] ----------------------------------------------------------------------
+[debug] [2020-11-01T23:13:41.649Z] 
+[debug] [2020-11-01T23:13:41.658Z] > command requires scopes: ["email","openid","https://www.googleapis.com/auth/cloudplatformprojects.readonly","https://www.googleapis.com/auth/firebase","https://www.googleapis.com/auth/cloud-platform"]
+[debug] [2020-11-01T23:13:41.659Z] > authorizing via signed-in user
+[info] 
+     ######## #### ########  ######## ########     ###     ######  ########
+     ##        ##  ##     ## ##       ##     ##  ##   ##  ##       ##
+     ######    ##  ########  ######   ########  #########  ######  ######
+     ##        ##  ##    ##  ##       ##     ## ##     ##       ## ##
+     ##       #### ##     ## ######## ########  ##     ##  ######  ########
+
+You're about to initialize a Firebase project in this directory:
+
+  C:\soft\react-projects\visit-japan
+
+Before we get started, keep in mind:
+
+  * You are currently outside your home directory
+  * You are initializing in an existing Firebase project directory
+
