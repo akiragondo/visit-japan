@@ -1,0 +1,49 @@
+.MustSeeContainer {
+    display: inline-flex;
+    flex-direction: column;
+    align-items: flex-start;
+    padding: 6vh 0 6vh 10vw;
+    width: 100%;
+    box-sizing: border-box;
+}
+
+.MustSeeImgRow {
+    display: flex;
+    flex-direction: row;
+    justify-content: flex-end;
+    width: 100%;
+}
+
+.MustSeeImg {
+    display: flex;
+    flex-direction: column;
+    align-items: flex-start;
+    height: 25vw;
+    width: 30%;
+    overflow: hidden;
+}
+
+.MustSeeImgs {
+    object-fit: cover;
+    height: 25vw;
+    width: 350.4px;
+    position: absolute;
+    z-index: 0;
+    overflow: hidden;
+}
+
+.MustSeeText {
+    z-index: 1;
+    padding: 1vh 0vw 0vh 1vw;
+    text-align: justify;
+}
+
+.ImgTitle {
+
+}
+
+.ImgDescription {
+
+}
+
+
