@@ -52,6 +52,7 @@ export default class ExploreSection extends Component {
         >
           <div className="SliderContainer">
             <Slider>
+              {/* Todo: Make the japan highlight dots */}
               <Slide index={0}>
                 <div className="CarouselShadow">
                   <img src={img3} alt="Carousel" className="CarouselImg" />
