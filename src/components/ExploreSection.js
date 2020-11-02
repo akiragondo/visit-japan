@@ -10,7 +10,6 @@ import {
   ButtonBack,
   ButtonNext,
   DotGroup,
-  Dot,
 } from "pure-react-carousel";
 import "pure-react-carousel/dist/react-carousel.es.css";
 
