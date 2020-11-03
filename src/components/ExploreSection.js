@@ -34,14 +34,34 @@ export default class ExploreSection extends Component {
   }
 
   render() {
+    let descriptionStyle;
+    if (window.innerWidth < 700) {
+      descriptionStyle = {
+        width: "90%",
+      };
+    }
     return (
       <div className="ExploreSection">
-        <div className="InformationTitle ExploreTitle">Explore Japan</div>
+        <div className="TitleDescriptionContainer">
+          <div className="InformationTitle ExploreTitle">Explore Japan</div>
+          <div className="InformationDescription" style={descriptionStyle}>
+            Lorem ipsum dolor sit amet, consectetur adipisicing elit, sed do
+            eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim
+            ad minim veniam, quis nostrud exercitation ullamco laboris nisi ut
+            aliquip ex ea commodo consequat.
+          </div>
+        </div>
 
         <CarouselProvider
           naturalSlideWidth={500}
           naturalSlideHeight={
-            window.innerWidth > 800 ? 205 : window.innerWidth > 500 ? 420 : 600
+            window.innerWidth > 1000
+              ? 205
+              : window.innerWidth > 800
+              ? 280
+              : window.innerWidth > 500
+              ? 420
+              : 600
           }
           totalSlides={3}
           className="Carousel"
@@ -59,8 +79,8 @@ export default class ExploreSection extends Component {
                     className="ImgTextContainer"
                     style={
                       window.innerWidth < 700
-                        ? { padding: "7vh 0 0 15%" }
-                        : { padding: "10vh 0 0 12%" }
+                        ? { padding: "7% 0 0 15%" }
+                        : { padding: "10% 0 0 12%" }
                     }
                   >
                     <div
@@ -87,8 +107,8 @@ export default class ExploreSection extends Component {
                     className="ImgTextContainer"
                     style={
                       window.innerWidth < 700
-                        ? { padding: "7vh 0 0 15%" }
-                        : { padding: "10vh 0 0 12%" }
+                        ? { padding: "7% 0 0 15%" }
+                        : { padding: "10% 0 0 12%" }
                     }
                   >
                     <div
@@ -115,8 +135,8 @@ export default class ExploreSection extends Component {
                     className="ImgTextContainer"
                     style={
                       window.innerWidth < 700
-                        ? { padding: "7vh 0 0 15%" }
-                        : { padding: "10vh 0 0 12%" }
+                        ? { padding: "7% 0 0 15%" }
+                        : { padding: "10% 0 0 12%" }
                     }
                   >
                     <div
@@ -139,10 +159,10 @@ export default class ExploreSection extends Component {
               </Slide>
             </Slider>
             <ButtonBack className="SliderButton LeftButton">
-              <i class="fas fa-angle-left fa-3x SliderIcon" />
+              <i className="fas fa-chevron-left fa-3x SliderIcon" />
             </ButtonBack>
             <ButtonNext className="SliderButton RightButton">
-              <i class="fas fa-angle-right fa-3x SliderIcon" />
+              <i className="fas fa-chevron-right fa-3x SliderIcon" />
             </ButtonNext>
             <DotGroup className="DotGroups" />
           </div>
